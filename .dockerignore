@@ -1,0 +1,19 @@
+# Ignore bundler config.
+bundle_cache/
+# Ignore Javascript dependencies
+node_modules/
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore encrypted secrets key file.
+/config/secrets.yml.key
+/config/secrets.yml
+
+#Ignore editor configs
+/.vscode
+vscode/
